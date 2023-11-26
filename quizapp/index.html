@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="main">
+    <h1>Create your account</h1>
+
+    <input type="text" id="email" placeholder="Enter Email">
+
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button id="button" onclick="signUp()">Sign up</button>
+
+    <a href="login.html">Already have an account?<span> Sign in</span></a>
+    
+    <div class="line"></div>
+
+    <button class="media" onclick="loginWithGoogle()">Singup With Google <img src="https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1=w240-h480-rw" alt="" srcset=""></i></button>
+
+    <button  class="media" onclick="loginWithGithub()">Singup With Github <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" srcset=""> </button>
+
+    
+
+</div>
+    <script src="app.js"></script>
+</body>
+</html>

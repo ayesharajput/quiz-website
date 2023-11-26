@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+
+    <h1>Welcome Back</h1>
+
+    <input type="text" id="Useremail" placeholder="Enter Email">
+    
+    <input type="password" id="Userpassword" placeholder="Enter Password">
+    
+    <button id="forget" onclick="forgotPassword()">Forgot password</button>
+    
+    <button id="button" onclick="login()">Login</button>
+
+    <a href="index.html">Dont have a account ? <span>Create account </span> </a>
+
+    <div class="line"></div>
+
+
+    <button class="media" onclick="loginWithGoogle()">Login With Google <img src="https://play-lh.googleusercontent.com/aFWiT2lTa9CYBpyPjfgfNHd0r5puwKRGj2rHpdPTNrz2N9LXgN_MbLjePd1OTc0E8Rl1=w240-h480-rw" ></button>
+
+    <button class="media" onclick="loginWithGithub()">Login With Github <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="" srcset=""></button>
+
+
+
+
+  
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
